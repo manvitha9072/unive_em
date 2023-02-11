@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    padding-top: 10px;
+    margin-right: auto;
+    width: 15%;
+    height: 15%
+}
+hr {
+    border : solid;
+    border-width: 2px 0px 0px 0px;
+}
+.ex1 { 
+    /* for the border */
+    padding-left: 20px;
+    border: 2px solid black;
+}
+table {
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: white;
+}

@@ -1,0 +1,59 @@
+The integrity attribute allows a browser to check the fetched script to ensure that the code is never loaded if the source has been manipulated. Subresource Integrity (SRI) is a W3C specification that allows web developers to ensure that resources hosted on third-party servers have not been altered.
+
+so container is a div class in bootstrap and it also has various attributes like  
+
+Is Bootstrap different from HTML?
+HTML is a markup language used to create webpages on a website. Bootstrap is JavaScript and CSS library to make webpages mobile friendly. 4. HTML tags are mandatory for any web page
+
+Both the tags (<div> and <section>) are used in the webpage, <section> tag means that the content inside relates to a single theme, and <div> tag is used as a block part of the webpage and don't convey any particular meaning. HTML <div> Tag: It is called a division tag.
+
+<!-- <div class="div1">
+    <ul class="nav">
+      <li>
+        <a class="nav-link" href="#section1">About</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#section2">Academics</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#section3">Technical Skills</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#section4">Projects</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#section5">Achievements</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#section6">Contact Me</a>
+      </li>
+    </ul>
+  </div>  -->
+
+  align first align last
+  bootstrap grid system 
+  take as less input from users as possible 
+
+
+  css is alwasy after bootstrap
+  read about cdn
+
+
+refreshments pages
+add notifications to admin 
+schedule button 
+number of participants 
+
+
+
+instead of having buttons for various functionalities, we can have a step wise thing like, after booking, refreshments page and then generate a report. so it will be easier 
+
+do the booking page
+why when how where
+change locations of script tag and check the code
+
+
+-----------------------------------------------------------------
+
+read about strict mode and this keyword in js
+what is window object 

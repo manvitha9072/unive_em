@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment-2</title>
+
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        .tab-d {
+            padding: 10px 0px 0px 60px
+        }
+        table {
+            border-collapse: collapse;
+            border : 2px solid black;
+        }
+
+        td {
+            border: 2px solid black;
+        }
+
+        .btn-d {
+            padding: 30px 30px 30px 30px
+        }
+    </style>
+    <div class="container">
+        <div class="btn-d">
+            <button>Click here to view table</button>
+        </div>
+        <div class="tab-d">
+            <table></table>
+        </div>
+    </div>
+    <script>
+        const names = ["Anakin", "Obi-Wan", "Luke", "Leia"];
+        let btn1 = document.querySelector('button');
+        let tab1 = document.querySelector('table');
+        btn1.addEventListener('click', showTable);
+        function showTable() {
+            let string = ""
+            for (let i = 0; i < names.length; i++) {
+                string = string + `<tr><td>${i + 1}${". "}</td><td>${names[i]}</td></tr>`;
+            }
+            tab1.innerHTML =
+                `<table>` + string + `<table>`;
+        }
+    </script>
+</body>
+</html>

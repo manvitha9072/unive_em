@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>DOM Manipulation</title>
+    </head>
+    <body>
+        <ul id="ul_ele">
+            <li class="li-item">1st element</li>
+            <li class="li-item">2nd element</li>
+            <li class="li-item">3rd element</li>
+        </ul>
+        <table id="table_ele">
+            <tr>
+                <td>Tr 1 - element 1</td>
+                <td>Tr 1 - element 2</td>
+                <td>Tr 1 - element 3</td>
+            </tr>
+            <tr>
+                <td>Tr 2 - element 1</td>
+                <td>Tr 2 - element 2</td>
+                <td>Tr 2 - element 3</td>
+            </tr>
+        </table>
+        <script>
+            // root node accessing 
+            console.log(document.documentElement)
+
+            //element node
+            console.log(document.body)
+
+            //children
+            console.log(document.body.childNodes)
+            console.log(document.body.children)
+            //indentation is also considered as text
+            // Array.from to convert to array
+            console.log(document.body.firstElementChild)
+            console.log(document.body.lastElementChild) 
+
+            const tag_1 = document.body.children[1];
+            console.log(tag_1.nextElementSibling);
+            //previous element siblings, text contents
+
+            //table
+            const tableTag = document.body.children[1]
+            console.log(tableTag.tBodies[0].rows[1].cells[1].textContent);
+
+            //selection using id
+            //console.log(ul_ele.style.background='blue')
+             //or
+            const id = document.getElementById('ul_ele')
+            id.style.backgroundColor = 'grey'
+
+            //selection using class name
+            const liitem = document.getElementsByClassName('li-item');
+            console.log(liitem)
+
+            //query-selector
+            const liitems = document.querySelector('ul> li : last-child')
+            console.log('query selector-'+liitems)
+        </script>
+    </body>
+</html>
+<!-- head and body are siblings
+and ul, li are descnedents of body and title is descnedent of head -->

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    hello world
+    <script>
+        const person = {
+            name: 'Scott',
+            age: 25,
+            address: {
+                city: 'Hyderabad',
+                state: 'Telangana'
+            }
+        }
+        
+        let clone = new {name:'john',...person}
+        console.log(clone)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+feedback form 
+
+functional requirements - notifications,
+
+student - rgistration, participate
+event organizers - venue booking, technical team, 
+user login - 2 
+admin login - booking, canteen, event log, registration database, orgrnizers and committees futue events
+
+no registration page for students 
+
+----------------------------------------------------------------------------------------
+
+login for event organizers :- 
+==========================
+
+after login admin will have a list of ongoing events date wise. on clicking on the event, he will be able see details required for managing the event. 
+
+required details of the upcoming events : date, time, duration of the event, venue, strength, time slots of meeting rooms for any required meetings before the event, refreshments, special guests if any, a checklist of things to be arranged and the abitily to print that sheet. 
+
+in the previous events list : - overview of past events - budget, sponsors, strength of poeple who attended the event, list of all commities that were involved in arranging the event and details of respective heads of the commities for any referance, general feedback of people on the event,.... 
+
+ongoing events (going on at this point of time) : contact details of people involved in arrangement, list of voulentees and their positions, details of refreshment arrangements,....
+
+----------------------------------------------------------------------------------------
+
+login for admin (the supervisor of the event management team) :-
+=============================================================
+
+list of all employees that are working on various projects with the name of projects they are working on. 
+
+list of events being managed and the progress in the event organization process 
+
+----------------------------------------------------------------------------------------
+
+login for bureau and comittee members involved :-
+==============================================
+
+they can just see the list of upcomming events and the arrangements to be made for that.
+
+a text area for posting all updates and queries. 
+
+----------------------------------------------------------------------------------------
+
+the common home page website will showcase the upcoming events and an overview of all the events occouring
+
+----------------------------------------------------------------------------------------
+
+admin :- 
+schedule an event 
+past event log
+list of approved events 
+
+event organizers :- pop up on login (accept or decline) 
+refreshments
+check list of events
+communication to bureaus and list of committees

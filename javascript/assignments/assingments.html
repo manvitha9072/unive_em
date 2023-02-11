@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 2px solid;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Salary</th>
+                    <th>Date of Joining</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div id="names">
+        Names of the employees whose salary>50000<br>Scott<br>Ram<br>John<br>Names of the employee who
+        joined in the month of December<br>Ram<br>John<br>
+    </div>
+    <script>
+        fetch(
+            "https://rawcdn.githack.com/kmitprojectschool/sem12022/788c820e40a750fecb30433c8d346457b7859abc/employee.json")
+            .then((res) => {
+                return res.json();
+            })
+            .then((res) => {
+                const a = res["Employees"];
+                let strEmpSal = `<b>Salary>50000</b><br>`;
+                let strEmpMonth = 
+                    "<b>Joined in the month of December</b><br>";
+                let strTabHead =
+                    "<thead><tr><th>Name</th><th>Address</th><th>Salary</th><th>Date of Joining</th></tr></thead>";
+                let strTabBody = "<tbody>";
+                for (let i of a) {
+                    strTabBody = 
+                        strTabBody +
+                        `<tr><td>${i["Name"]}</td><td>${i["Address"]}</td><td>${i["Salary"]}</td><td>${i["DateOfJoining"]}</td></tr>`;
+                    if (i["Salary"] > 50000) {
+                        strEmpSal = strEmpSal + `${i["Name"]}<br>`;
+                    }
+                    if (i["DateOfJoining"].split("-")[1] == "12") {
+                        strEmpMonth = strEmpMonth + `${i["Name"]}<br>`;
+                    }
+                }
+                strTabBody = strTabBody + "</tbody>";
+                let strTable =
+                    "<table>" + strTabHead + strTabBody + "</table>";
+                document.getElementById("table").innerHTML = strTable;
+                document.getElementById("names").innerHTML = strEmpSal + strEmpMonth;
+            });
+
+    </script>
+</body>
+
+</html>

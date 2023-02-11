@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Frontend bootcamp</a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Hello</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Hello1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Hello2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning"> web developer !</span></h1>
+                    <p class="lead my-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum quidem culpa nostrum temporibus
+                            quae dicta mollitia aliquam, adipisci, libero quam nemo doloribus optio eos unde, eveniet
+                        dolores molestias cumque doloremque.
+                    </p>
+
+                    <button class="btn-primary btn-lg">Start enrolment</button>
+                </div>
+                <img class='img-fluid w-20 d-none d-sm-block'
+                    src="https://cdn4.vectorstock.com/i/1000x1000/82/33/person-gray-photo-placeholder-woman-vector-24138233.jpg"
+                    height="150" width="150">
+            </div>
+        </div>
+    </section>
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sing up for newsletter</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-sm">
+                    <div class="card-body bg-dark text-light text-center">
+                        <i class="bi bi-1-circle text-light text-center"></i><br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quo.
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card-body bg-dark text-light text-center">
+                        <i class="bi bi-2-circle text-light text-center"></i><br>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, quibusdam.
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card-body bg-dark text-light text-center">
+                        <i class="bi bi-3-circle text-light text-center"></i><br>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quis.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-secondary p-5" id="learn">
+        <div class="row allign-items-center justify-content-between">
+            <div class="col-md">
+                <img src="https://wallpapercave.com/wp/wp8903890.jpg" class="img-fliud" atl="hello world" height="200"
+                    width="200">
+            </div>
+            <div class="col-ms p-5">
+                <h2>Laern MERN !</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro veniam possimus et voluptates minus
+                    aut eaque at dolorum molestiae reiciendis! Sunt ducimus id ipsam pariatur?
+                </p>
+                <a href="#" class="btn btn-light mt-3">
+                    <i class="bi bi-chevron-right"></i>
+                    Read More
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="questions" class="p-5">
+        <div class="container text-center mb-4">Frequently asked questions</div>
+        <!--Item1-->
+        <div class="accordion accordion-flush" id="question">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Why learn from us ?
+                    </button>
+                </h2>
+                <div id="question-one" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#question">
+                    <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore in quisquam facilis numquam. Quos pariatur eum velit! Architecto in dolor voluptatibus accusantium hic laborum doloremque.</div>
+                </div>
+            </div>
+            <!--Item2-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Hoow useful is the course ?
+                    </button>
+                </h2>
+                <div id="question-two" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#question">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste animi, suscipit nisi facere quasi. Perferendis fuga ipsa nisi officia odio veniam a ea. Atque blanditiis ut pariatur sint ad!</div>
+                </div>
+            </div>
+            <!--Item3-->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#question-three" aria-expanded="false" aria-controls="flush-collapseThree">
+                        What's the best course ?
+                    </button>
+                </h2>
+                <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#question">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae saepe ratione totam cum facere! Libero quos facilis, in corrupti esse, vero at earum, vitae aspernatur facere animi repellendus accusamus quo.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#instructors" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">Our Instructors</h2>
+            <p class="lead text-color text-center text-white mb-5">
+                All our instructors have 15+ years of experience 
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="instructor-1">
+                            <h3 class="card-title mb-3">John</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ex reiciendis maxime facilis facere, voluptatibus a id consequuntur officiis dolorum quisquam quidem officia dignissimos amet.</p>
+                            <a href="#">
+                                <i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="'card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="instructor-2">
+                            <h3 class="card-title mb-3">Mike</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ex reiciendis maxime facilis facere, voluptatibus a id consequuntur officiis dolorum quisquam quidem officia dignissimos amet.</p>
+                            <a href="#">
+                                <i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="'card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/14.jpg" class="rounded-circle mb-3" alt="instructor-1">
+                            <h3 class="card-title mb-3">Mike</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ex reiciendis maxime facilis facere, voluptatibus a id consequuntur officiis dolorum quisquam quidem officia dignissimos amet.</p>
+                            <a href="#">
+                                <i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="'card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/14.jpg" class="rounded-circle mb-3" alt="instructor-1">
+                            <h3 class="card-title mb-3">Angela</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ex reiciendis maxime facilis facere, voluptatibus a id consequuntur officiis dolorum quisquam quidem officia dignissimos amet.</p>
+                            <a href="#">
+                                <i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-linkedin text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Student Contact:</span>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">E-mail:</span>
+                            abc@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            Copyright &copy; 2022 Frontend Bootcamp
+            <a class="position-absolute bottom-0 end-0 p-5" href="#">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

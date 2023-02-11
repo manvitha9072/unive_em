@@ -1,0 +1,46 @@
+body {
+    background-color: bisque;
+    margin: 2px black solid;
+}
+.back{
+    background-color: orange;
+}
+.div1 {
+    position:fixed;
+    padding-top: 10px;
+    top: 0;
+    width:100%;
+    background-color: orange;
+    /* display: block; */
+    height: 60px;
+}
+.nav-link {
+    color: white;
+}
+
+.div2 {
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-bottom: 30opx;
+}
+
+.img {
+    float: right;
+    border-radius: 100%;
+}
+hr {
+    border: solid;
+    border-width: 2px 0px 0px 0px;
+}
+table{
+    border: 2px solid black solid;
+    border-collapse: collapse; 
+}
+th,td {
+    border: 1px solid black solid;
+    padding: 10px ;
+}
+.heading{
+    padding-left: 20px;
+    padding-top: 80px;
+}

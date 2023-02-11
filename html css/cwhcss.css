@@ -1,0 +1,32 @@
+body {
+    background-color:beige;
+    font-size: 13; 
+}
+li,div {
+    background-color: aqua;
+}
+/* id selectors : always satrt with # and id attribute is given in the html tag
+class selectors : always start with a . and class attribute is given in the required html tag  */
+
+
+/* when do u use id and when do you use class */
+
+/* text algin overline underline and line through 
+   text transform features, letter spacing,  font family changes the font, font style changes to bold, italics and all */
+
+   /* things important for event management system homepage function */
+
+/* for responsive font size, we use the tag vw */
+
+/* em tag for increasing font size when mouse is hovering on the required text */
+
+ /* list-style-type attribute helps you change the shape and size of bullet points from circle to sqaure or even remove the bullet points and just have points  */
+
+/* display property helps you to get all properties in a line 
+    display: inline */
+
+/*difference between visibility and display */
+
+/*tr:nth-child(even) {
+            background-color:azure;
+        }*/
